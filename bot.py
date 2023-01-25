@@ -4,7 +4,7 @@ import os
 
 intents = discord.Intents().all()
 client = discord.Client(intents=intents)
-server_id = 933044731657723914
+server_id = 123 # YOUR_SERVER_ID
         
 
 @client.event
@@ -35,4 +35,4 @@ else:
 async def on_disconnect():
     await client.close()
 
-client.run('OTMzMDczOTA5MTIzODA1MjI0.GWUDke.4HbHFRxxeMu_GcjvomNVO7dGihdCEvhdAjCYT4')
+client.run('token') #token
