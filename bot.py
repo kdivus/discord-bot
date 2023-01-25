@@ -30,7 +30,6 @@ if client.is_closed():
 else:
     print("The bot is connected")
 
-
 @client.event
 async def on_disconnect():
     await client.close()
